@@ -1,13 +1,17 @@
 {
-  "name": "cfbgcopenapplets",
+  "name": "cfbgccomponents",
   "version": "1.0.3",
   "description": "微信开放标签-打开小程序",
-  "main": "lib/cfbgcOpenApplet.umd.min.js",
+  "main": "lib/index/index.js",
+  "author": "cfbgc",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name cfbgcOpenApplet --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name cfbgcComponents --dest lib packages/index.js",
+    "lib:all": "vue-cli-service build --target lib --name cfbgcComponents --dest lib packages/index.js",
+    "lib:build": "vue-cli-service build --mode npm"
   },
   "dependencies": {
     "core-js": "^3.6.5",
