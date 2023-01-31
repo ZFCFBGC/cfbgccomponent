@@ -1,10 +1,9 @@
 {
-  "name": "cfbgccomponents",
-  "version": "1.0.3",
-  "description": "微信开放标签-打开小程序",
+  "name": "gmassembly",
+  "version": "1.0.0",
+  "description": "gqg的组件库",
   "main": "lib/index/index.js",
   "author": "cfbgc",
-  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

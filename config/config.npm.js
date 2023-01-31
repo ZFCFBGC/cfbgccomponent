@@ -17,7 +17,7 @@ const npmBuildConfig = {
       //  依赖输出
       libraryExport: "default",
       //  依赖名称
-      library: "cfbgccomponent",
+      library: "gmassembly", //cfbgccomponent
     },
     externals: {
       vue: {
