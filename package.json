@@ -1,6 +1,6 @@
 {
   "name": "gmassembly",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "gqg的组件库",
   "main": "lib/index/index.js",
   "author": "cfbgc",
@@ -8,8 +8,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name cfbgcComponents --dest lib packages/index.js",
-    "lib:all": "vue-cli-service build --target lib --name cfbgcComponents --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name gmassembly --dest lib packages/index.js",
+    "lib:all": "vue-cli-service build --target lib --name gmassembly --dest lib packages/index.js",
     "lib:build": "vue-cli-service build --mode npm"
   },
   "dependencies": {

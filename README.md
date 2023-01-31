@@ -3,7 +3,7 @@
 ## 安装
 
 
-`npm i cfbgccomponents`
+`npm i gmassembly`
 
 ## 使用
 
