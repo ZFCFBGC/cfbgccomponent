@@ -10,6 +10,7 @@
         ></hue-slider>
         <sv-panel ref="sl" :color="color"></sv-panel>
       </div>
+      <alpha-slider v-if="showAlpha" ref="alpha" :color="color"></alpha-slider>
       <div class="cfbgc-color-dropdown__btns">
         <div class="cfbgc-color-dropdown__value">
           <input
@@ -35,6 +36,7 @@
 <script>
 import SvPanel from "./sv-panel";
 import HueSlider from "./hue-slider";
+import AlphaSlider from "./alpha-slider";
 export default {
   props: {
     color: {
@@ -49,6 +51,7 @@ export default {
   components: {
     SvPanel,
     HueSlider,
+    AlphaSlider,
   },
   data() {
     return {
@@ -107,7 +110,7 @@ export default {
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
   width: 300px;
-  height: 214px;
+  /* height: 214px; */
   top: 32px;
   left: 0;
 }
@@ -120,6 +123,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 6px;
 }
 .cfbgc-color-dropdown__btns__box {
   display: flex;

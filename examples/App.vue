@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <cfbgc-colorPicker v-model="color"></cfbgc-colorPicker>
+    <cfbgc-colorPicker v-model="color" :show-alpha="true"></cfbgc-colorPicker>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: "App",
   data() {
     return {
-      color: '#409EFF'
+      color: 'rgba(19, 206, 102, 0.8)'
     };
   },
   // mounted(){
